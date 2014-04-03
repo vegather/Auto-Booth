@@ -1,0 +1,472 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9A9EBB4B18EE105D0043EBA9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A9EBB4A18EE105D0043EBA9 /* Foundation.framework */; };
+		9A9EBB4D18EE105D0043EBA9 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A9EBB4C18EE105D0043EBA9 /* CoreGraphics.framework */; };
+		9A9EBB4F18EE105D0043EBA9 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A9EBB4E18EE105D0043EBA9 /* UIKit.framework */; };
+		9A9EBB5518EE105D0043EBA9 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9A9EBB5318EE105D0043EBA9 /* InfoPlist.strings */; };
+		9A9EBB5718EE105D0043EBA9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A9EBB5618EE105D0043EBA9 /* main.m */; };
+		9A9EBB5B18EE105D0043EBA9 /* VSTAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A9EBB5A18EE105D0043EBA9 /* VSTAppDelegate.m */; };
+		9A9EBB5E18EE105D0043EBA9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9A9EBB5C18EE105D0043EBA9 /* Main.storyboard */; };
+		9A9EBB6118EE105D0043EBA9 /* VSTViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A9EBB6018EE105D0043EBA9 /* VSTViewController.m */; };
+		9A9EBB6318EE105D0043EBA9 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9A9EBB6218EE105D0043EBA9 /* Images.xcassets */; };
+		9A9EBB6A18EE105D0043EBA9 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A9EBB6918EE105D0043EBA9 /* XCTest.framework */; };
+		9A9EBB6B18EE105D0043EBA9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A9EBB4A18EE105D0043EBA9 /* Foundation.framework */; };
+		9A9EBB6C18EE105D0043EBA9 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A9EBB4E18EE105D0043EBA9 /* UIKit.framework */; };
+		9A9EBB7418EE105D0043EBA9 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9A9EBB7218EE105D0043EBA9 /* InfoPlist.strings */; };
+		9A9EBB7618EE105D0043EBA9 /* Vegard_Solheim_TheriaultTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A9EBB7518EE105D0043EBA9 /* Vegard_Solheim_TheriaultTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9A9EBB6D18EE105D0043EBA9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9A9EBB3F18EE105D0043EBA9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9A9EBB4618EE105D0043EBA9;
+			remoteInfo = "Vegard Solheim Theriault";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9A9EBB4718EE105D0043EBA9 /* Vegard Solheim Theriault.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Vegard Solheim Theriault.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9A9EBB4A18EE105D0043EBA9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		9A9EBB4C18EE105D0043EBA9 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		9A9EBB4E18EE105D0043EBA9 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		9A9EBB5218EE105D0043EBA9 /* Vegard Solheim Theriault-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Vegard Solheim Theriault-Info.plist"; sourceTree = "<group>"; };
+		9A9EBB5418EE105D0043EBA9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		9A9EBB5618EE105D0043EBA9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9A9EBB5818EE105D0043EBA9 /* Vegard Solheim Theriault-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Vegard Solheim Theriault-Prefix.pch"; sourceTree = "<group>"; };
+		9A9EBB5918EE105D0043EBA9 /* VSTAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VSTAppDelegate.h; sourceTree = "<group>"; };
+		9A9EBB5A18EE105D0043EBA9 /* VSTAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VSTAppDelegate.m; sourceTree = "<group>"; };
+		9A9EBB5D18EE105D0043EBA9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9A9EBB5F18EE105D0043EBA9 /* VSTViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VSTViewController.h; sourceTree = "<group>"; };
+		9A9EBB6018EE105D0043EBA9 /* VSTViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VSTViewController.m; sourceTree = "<group>"; };
+		9A9EBB6218EE105D0043EBA9 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		9A9EBB6818EE105D0043EBA9 /* Vegard Solheim TheriaultTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Vegard Solheim TheriaultTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9A9EBB6918EE105D0043EBA9 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		9A9EBB7118EE105D0043EBA9 /* Vegard Solheim TheriaultTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Vegard Solheim TheriaultTests-Info.plist"; sourceTree = "<group>"; };
+		9A9EBB7318EE105D0043EBA9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		9A9EBB7518EE105D0043EBA9 /* Vegard_Solheim_TheriaultTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Vegard_Solheim_TheriaultTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9A9EBB4418EE105D0043EBA9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9A9EBB4D18EE105D0043EBA9 /* CoreGraphics.framework in Frameworks */,
+				9A9EBB4F18EE105D0043EBA9 /* UIKit.framework in Frameworks */,
+				9A9EBB4B18EE105D0043EBA9 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A9EBB6518EE105D0043EBA9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9A9EBB6A18EE105D0043EBA9 /* XCTest.framework in Frameworks */,
+				9A9EBB6C18EE105D0043EBA9 /* UIKit.framework in Frameworks */,
+				9A9EBB6B18EE105D0043EBA9 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9A9EBB3E18EE105D0043EBA9 = {
+			isa = PBXGroup;
+			children = (
+				9A9EBB5018EE105D0043EBA9 /* Vegard Solheim Theriault */,
+				9A9EBB6F18EE105D0043EBA9 /* Vegard Solheim TheriaultTests */,
+				9A9EBB4918EE105D0043EBA9 /* Frameworks */,
+				9A9EBB4818EE105D0043EBA9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9A9EBB4818EE105D0043EBA9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9A9EBB4718EE105D0043EBA9 /* Vegard Solheim Theriault.app */,
+				9A9EBB6818EE105D0043EBA9 /* Vegard Solheim TheriaultTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9A9EBB4918EE105D0043EBA9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9A9EBB4A18EE105D0043EBA9 /* Foundation.framework */,
+				9A9EBB4C18EE105D0043EBA9 /* CoreGraphics.framework */,
+				9A9EBB4E18EE105D0043EBA9 /* UIKit.framework */,
+				9A9EBB6918EE105D0043EBA9 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9A9EBB5018EE105D0043EBA9 /* Vegard Solheim Theriault */ = {
+			isa = PBXGroup;
+			children = (
+				9A9EBB5918EE105D0043EBA9 /* VSTAppDelegate.h */,
+				9A9EBB5A18EE105D0043EBA9 /* VSTAppDelegate.m */,
+				9A9EBB5C18EE105D0043EBA9 /* Main.storyboard */,
+				9A9EBB5F18EE105D0043EBA9 /* VSTViewController.h */,
+				9A9EBB6018EE105D0043EBA9 /* VSTViewController.m */,
+				9A9EBB6218EE105D0043EBA9 /* Images.xcassets */,
+				9A9EBB5118EE105D0043EBA9 /* Supporting Files */,
+			);
+			path = "Vegard Solheim Theriault";
+			sourceTree = "<group>";
+		};
+		9A9EBB5118EE105D0043EBA9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9A9EBB5218EE105D0043EBA9 /* Vegard Solheim Theriault-Info.plist */,
+				9A9EBB5318EE105D0043EBA9 /* InfoPlist.strings */,
+				9A9EBB5618EE105D0043EBA9 /* main.m */,
+				9A9EBB5818EE105D0043EBA9 /* Vegard Solheim Theriault-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9A9EBB6F18EE105D0043EBA9 /* Vegard Solheim TheriaultTests */ = {
+			isa = PBXGroup;
+			children = (
+				9A9EBB7518EE105D0043EBA9 /* Vegard_Solheim_TheriaultTests.m */,
+				9A9EBB7018EE105D0043EBA9 /* Supporting Files */,
+			);
+			path = "Vegard Solheim TheriaultTests";
+			sourceTree = "<group>";
+		};
+		9A9EBB7018EE105D0043EBA9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9A9EBB7118EE105D0043EBA9 /* Vegard Solheim TheriaultTests-Info.plist */,
+				9A9EBB7218EE105D0043EBA9 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9A9EBB4618EE105D0043EBA9 /* Vegard Solheim Theriault */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9A9EBB7918EE105D0043EBA9 /* Build configuration list for PBXNativeTarget "Vegard Solheim Theriault" */;
+			buildPhases = (
+				9A9EBB4318EE105D0043EBA9 /* Sources */,
+				9A9EBB4418EE105D0043EBA9 /* Frameworks */,
+				9A9EBB4518EE105D0043EBA9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Vegard Solheim Theriault";
+			productName = "Vegard Solheim Theriault";
+			productReference = 9A9EBB4718EE105D0043EBA9 /* Vegard Solheim Theriault.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9A9EBB6718EE105D0043EBA9 /* Vegard Solheim TheriaultTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9A9EBB7C18EE105D0043EBA9 /* Build configuration list for PBXNativeTarget "Vegard Solheim TheriaultTests" */;
+			buildPhases = (
+				9A9EBB6418EE105D0043EBA9 /* Sources */,
+				9A9EBB6518EE105D0043EBA9 /* Frameworks */,
+				9A9EBB6618EE105D0043EBA9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9A9EBB6E18EE105D0043EBA9 /* PBXTargetDependency */,
+			);
+			name = "Vegard Solheim TheriaultTests";
+			productName = "Vegard Solheim TheriaultTests";
+			productReference = 9A9EBB6818EE105D0043EBA9 /* Vegard Solheim TheriaultTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9A9EBB3F18EE105D0043EBA9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = VST;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Vegard Solheim Theriault";
+				TargetAttributes = {
+					9A9EBB6718EE105D0043EBA9 = {
+						TestTargetID = 9A9EBB4618EE105D0043EBA9;
+					};
+				};
+			};
+			buildConfigurationList = 9A9EBB4218EE105D0043EBA9 /* Build configuration list for PBXProject "Vegard Solheim Theriault" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9A9EBB3E18EE105D0043EBA9;
+			productRefGroup = 9A9EBB4818EE105D0043EBA9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9A9EBB4618EE105D0043EBA9 /* Vegard Solheim Theriault */,
+				9A9EBB6718EE105D0043EBA9 /* Vegard Solheim TheriaultTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9A9EBB4518EE105D0043EBA9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9A9EBB6318EE105D0043EBA9 /* Images.xcassets in Resources */,
+				9A9EBB5518EE105D0043EBA9 /* InfoPlist.strings in Resources */,
+				9A9EBB5E18EE105D0043EBA9 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A9EBB6618EE105D0043EBA9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9A9EBB7418EE105D0043EBA9 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9A9EBB4318EE105D0043EBA9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9A9EBB5B18EE105D0043EBA9 /* VSTAppDelegate.m in Sources */,
+				9A9EBB6118EE105D0043EBA9 /* VSTViewController.m in Sources */,
+				9A9EBB5718EE105D0043EBA9 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A9EBB6418EE105D0043EBA9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9A9EBB7618EE105D0043EBA9 /* Vegard_Solheim_TheriaultTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9A9EBB6E18EE105D0043EBA9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9A9EBB4618EE105D0043EBA9 /* Vegard Solheim Theriault */;
+			targetProxy = 9A9EBB6D18EE105D0043EBA9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9A9EBB5318EE105D0043EBA9 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9A9EBB5418EE105D0043EBA9 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		9A9EBB5C18EE105D0043EBA9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9A9EBB5D18EE105D0043EBA9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9A9EBB7218EE105D0043EBA9 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9A9EBB7318EE105D0043EBA9 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9A9EBB7718EE105D0043EBA9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		9A9EBB7818EE105D0043EBA9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9A9EBB7A18EE105D0043EBA9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Vegard Solheim Theriault/Vegard Solheim Theriault-Prefix.pch";
+				INFOPLIST_FILE = "Vegard Solheim Theriault/Vegard Solheim Theriault-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		9A9EBB7B18EE105D0043EBA9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Vegard Solheim Theriault/Vegard Solheim Theriault-Prefix.pch";
+				INFOPLIST_FILE = "Vegard Solheim Theriault/Vegard Solheim Theriault-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		9A9EBB7D18EE105D0043EBA9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Vegard Solheim Theriault.app/Vegard Solheim Theriault";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Vegard Solheim Theriault/Vegard Solheim Theriault-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Vegard Solheim TheriaultTests/Vegard Solheim TheriaultTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		9A9EBB7E18EE105D0043EBA9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Vegard Solheim Theriault.app/Vegard Solheim Theriault";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Vegard Solheim Theriault/Vegard Solheim Theriault-Prefix.pch";
+				INFOPLIST_FILE = "Vegard Solheim TheriaultTests/Vegard Solheim TheriaultTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9A9EBB4218EE105D0043EBA9 /* Build configuration list for PBXProject "Vegard Solheim Theriault" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9A9EBB7718EE105D0043EBA9 /* Debug */,
+				9A9EBB7818EE105D0043EBA9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9A9EBB7918EE105D0043EBA9 /* Build configuration list for PBXNativeTarget "Vegard Solheim Theriault" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9A9EBB7A18EE105D0043EBA9 /* Debug */,
+				9A9EBB7B18EE105D0043EBA9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		9A9EBB7C18EE105D0043EBA9 /* Build configuration list for PBXNativeTarget "Vegard Solheim TheriaultTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9A9EBB7D18EE105D0043EBA9 /* Debug */,
+				9A9EBB7E18EE105D0043EBA9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9A9EBB3F18EE105D0043EBA9 /* Project object */;
+}
