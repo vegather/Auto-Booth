@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9A36AD6818F5EC9100A309ED /* VSTValueIndicator.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A36AD6718F5EC9100A309ED /* VSTValueIndicator.m */; };
+		9A37C57919E9AEDD00472033 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9A37C57819E9AEDD00472033 /* Assets.xcassets */; };
 		9A9EBB4B18EE105D0043EBA9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A9EBB4A18EE105D0043EBA9 /* Foundation.framework */; };
 		9A9EBB4D18EE105D0043EBA9 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A9EBB4C18EE105D0043EBA9 /* CoreGraphics.framework */; };
 		9A9EBB4F18EE105D0043EBA9 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A9EBB4E18EE105D0043EBA9 /* UIKit.framework */; };
@@ -15,12 +17,22 @@
 		9A9EBB5B18EE105D0043EBA9 /* VSTAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A9EBB5A18EE105D0043EBA9 /* VSTAppDelegate.m */; };
 		9A9EBB5E18EE105D0043EBA9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9A9EBB5C18EE105D0043EBA9 /* Main.storyboard */; };
 		9A9EBB6118EE105D0043EBA9 /* VSTViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A9EBB6018EE105D0043EBA9 /* VSTViewController.m */; };
-		9A9EBB6318EE105D0043EBA9 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9A9EBB6218EE105D0043EBA9 /* Images.xcassets */; };
 		9A9EBB6A18EE105D0043EBA9 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A9EBB6918EE105D0043EBA9 /* XCTest.framework */; };
 		9A9EBB6B18EE105D0043EBA9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A9EBB4A18EE105D0043EBA9 /* Foundation.framework */; };
 		9A9EBB6C18EE105D0043EBA9 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A9EBB4E18EE105D0043EBA9 /* UIKit.framework */; };
 		9A9EBB7418EE105D0043EBA9 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9A9EBB7218EE105D0043EBA9 /* InfoPlist.strings */; };
 		9A9EBB7618EE105D0043EBA9 /* Vegard_Solheim_TheriaultTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A9EBB7518EE105D0043EBA9 /* Vegard_Solheim_TheriaultTests.m */; };
+		9A9EBB8018EE10A20043EBA9 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A9EBB7F18EE10A20043EBA9 /* AVFoundation.framework */; };
+		9A9EBB8518F166E10043EBA9 /* VSTPictureViewerVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A9EBB8418F166E10043EBA9 /* VSTPictureViewerVC.m */; };
+		9A9EBB8818F1A1CF0043EBA9 /* VSTHorizontalPickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A9EBB8718F1A1CF0043EBA9 /* VSTHorizontalPickerView.m */; };
+		9A9EBB8A18F2ECD80043EBA9 /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A9EBB8918F2ECD80043EBA9 /* AssetsLibrary.framework */; };
+		9A9EBB9118F411410043EBA9 /* CoreImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A9EBB9018F411410043EBA9 /* CoreImage.framework */; };
+		9A9EBB9718F44D8F0043EBA9 /* WWDC Gradient 2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9A9EBB9618F44D8F0043EBA9 /* WWDC Gradient 2.jpg */; };
+		9A9EBB9918F4787A0043EBA9 /* WWDC Gradient.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9A9EBB9818F4787A0043EBA9 /* WWDC Gradient.jpg */; };
+		9A9EBB9C18F49B980043EBA9 /* VSTImageFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A9EBB9B18F49B980043EBA9 /* VSTImageFilter.m */; };
+		9A9EBB9F18F55A460043EBA9 /* VSTPicture.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A9EBB9E18F55A460043EBA9 /* VSTPicture.m */; };
+		9AE9E00918F62C210027C141 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9AE9E00818F62C210027C141 /* CoreLocation.framework */; };
+		9AE9E00C18F6F9570027C141 /* VSTLocationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AE9E00B18F6F9570027C141 /* VSTLocationManager.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +46,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		9A36AD6618F5EC9100A309ED /* VSTValueIndicator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VSTValueIndicator.h; sourceTree = "<group>"; };
+		9A36AD6718F5EC9100A309ED /* VSTValueIndicator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VSTValueIndicator.m; sourceTree = "<group>"; };
+		9A37C57819E9AEDD00472033 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = ../Assets.xcassets; sourceTree = "<group>"; };
 		9A9EBB4718EE105D0043EBA9 /* Vegard Solheim Theriault.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Vegard Solheim Theriault.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9A9EBB4A18EE105D0043EBA9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		9A9EBB4C18EE105D0043EBA9 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -47,12 +62,28 @@
 		9A9EBB5D18EE105D0043EBA9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9A9EBB5F18EE105D0043EBA9 /* VSTViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VSTViewController.h; sourceTree = "<group>"; };
 		9A9EBB6018EE105D0043EBA9 /* VSTViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VSTViewController.m; sourceTree = "<group>"; };
-		9A9EBB6218EE105D0043EBA9 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		9A9EBB6818EE105D0043EBA9 /* Vegard Solheim TheriaultTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Vegard Solheim TheriaultTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9A9EBB6918EE105D0043EBA9 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		9A9EBB7118EE105D0043EBA9 /* Vegard Solheim TheriaultTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Vegard Solheim TheriaultTests-Info.plist"; sourceTree = "<group>"; };
 		9A9EBB7318EE105D0043EBA9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		9A9EBB7518EE105D0043EBA9 /* Vegard_Solheim_TheriaultTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Vegard_Solheim_TheriaultTests.m; sourceTree = "<group>"; };
+		9A9EBB7F18EE10A20043EBA9 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		9A9EBB8118EE113C0043EBA9 /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		9A9EBB8318F166E10043EBA9 /* VSTPictureViewerVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VSTPictureViewerVC.h; sourceTree = "<group>"; };
+		9A9EBB8418F166E10043EBA9 /* VSTPictureViewerVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VSTPictureViewerVC.m; sourceTree = "<group>"; };
+		9A9EBB8618F1A1CE0043EBA9 /* VSTHorizontalPickerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VSTHorizontalPickerView.h; sourceTree = "<group>"; };
+		9A9EBB8718F1A1CF0043EBA9 /* VSTHorizontalPickerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VSTHorizontalPickerView.m; sourceTree = "<group>"; };
+		9A9EBB8918F2ECD80043EBA9 /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = System/Library/Frameworks/AssetsLibrary.framework; sourceTree = SDKROOT; };
+		9A9EBB9018F411410043EBA9 /* CoreImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreImage.framework; path = System/Library/Frameworks/CoreImage.framework; sourceTree = SDKROOT; };
+		9A9EBB9618F44D8F0043EBA9 /* WWDC Gradient 2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "WWDC Gradient 2.jpg"; sourceTree = "<group>"; };
+		9A9EBB9818F4787A0043EBA9 /* WWDC Gradient.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "WWDC Gradient.jpg"; sourceTree = "<group>"; };
+		9A9EBB9A18F49B980043EBA9 /* VSTImageFilter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VSTImageFilter.h; sourceTree = "<group>"; };
+		9A9EBB9B18F49B980043EBA9 /* VSTImageFilter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VSTImageFilter.m; sourceTree = "<group>"; };
+		9A9EBB9D18F55A460043EBA9 /* VSTPicture.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VSTPicture.h; sourceTree = "<group>"; };
+		9A9EBB9E18F55A460043EBA9 /* VSTPicture.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VSTPicture.m; sourceTree = "<group>"; };
+		9AE9E00818F62C210027C141 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		9AE9E00A18F6F9570027C141 /* VSTLocationManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VSTLocationManager.h; sourceTree = "<group>"; };
+		9AE9E00B18F6F9570027C141 /* VSTLocationManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VSTLocationManager.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +91,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9AE9E00918F62C210027C141 /* CoreLocation.framework in Frameworks */,
+				9A9EBB9118F411410043EBA9 /* CoreImage.framework in Frameworks */,
+				9A9EBB8A18F2ECD80043EBA9 /* AssetsLibrary.framework in Frameworks */,
+				9A9EBB8018EE10A20043EBA9 /* AVFoundation.framework in Frameworks */,
 				9A9EBB4D18EE105D0043EBA9 /* CoreGraphics.framework in Frameworks */,
 				9A9EBB4F18EE105D0043EBA9 /* UIKit.framework in Frameworks */,
 				9A9EBB4B18EE105D0043EBA9 /* Foundation.framework in Frameworks */,
@@ -79,6 +114,28 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9A36AD6418F5E3E200A309ED /* UIView Subclasses */ = {
+			isa = PBXGroup;
+			children = (
+				9A36AD6618F5EC9100A309ED /* VSTValueIndicator.h */,
+				9A36AD6718F5EC9100A309ED /* VSTValueIndicator.m */,
+				9A9EBB8618F1A1CE0043EBA9 /* VSTHorizontalPickerView.h */,
+				9A9EBB8718F1A1CF0043EBA9 /* VSTHorizontalPickerView.m */,
+			);
+			name = "UIView Subclasses";
+			sourceTree = "<group>";
+		};
+		9A36AD6518F5E3F700A309ED /* Picture Management */ = {
+			isa = PBXGroup;
+			children = (
+				9A9EBB9D18F55A460043EBA9 /* VSTPicture.h */,
+				9A9EBB9E18F55A460043EBA9 /* VSTPicture.m */,
+				9A9EBB9A18F49B980043EBA9 /* VSTImageFilter.h */,
+				9A9EBB9B18F49B980043EBA9 /* VSTImageFilter.m */,
+			);
+			name = "Picture Management";
+			sourceTree = "<group>";
+		};
 		9A9EBB3E18EE105D0043EBA9 = {
 			isa = PBXGroup;
 			children = (
@@ -101,6 +158,11 @@
 		9A9EBB4918EE105D0043EBA9 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				9AE9E00818F62C210027C141 /* CoreLocation.framework */,
+				9A9EBB9018F411410043EBA9 /* CoreImage.framework */,
+				9A9EBB8918F2ECD80043EBA9 /* AssetsLibrary.framework */,
+				9A9EBB8118EE113C0043EBA9 /* MediaPlayer.framework */,
+				9A9EBB7F18EE10A20043EBA9 /* AVFoundation.framework */,
 				9A9EBB4A18EE105D0043EBA9 /* Foundation.framework */,
 				9A9EBB4C18EE105D0043EBA9 /* CoreGraphics.framework */,
 				9A9EBB4E18EE105D0043EBA9 /* UIKit.framework */,
@@ -112,12 +174,11 @@
 		9A9EBB5018EE105D0043EBA9 /* Vegard Solheim Theriault */ = {
 			isa = PBXGroup;
 			children = (
-				9A9EBB5918EE105D0043EBA9 /* VSTAppDelegate.h */,
-				9A9EBB5A18EE105D0043EBA9 /* VSTAppDelegate.m */,
 				9A9EBB5C18EE105D0043EBA9 /* Main.storyboard */,
-				9A9EBB5F18EE105D0043EBA9 /* VSTViewController.h */,
-				9A9EBB6018EE105D0043EBA9 /* VSTViewController.m */,
-				9A9EBB6218EE105D0043EBA9 /* Images.xcassets */,
+				9A9EBBA018F55A540043EBA9 /* View Controllers */,
+				9AE9E00D18F6F9620027C141 /* Location Management */,
+				9A36AD6518F5E3F700A309ED /* Picture Management */,
+				9A36AD6418F5E3E200A309ED /* UIView Subclasses */,
 				9A9EBB5118EE105D0043EBA9 /* Supporting Files */,
 			);
 			path = "Vegard Solheim Theriault";
@@ -126,6 +187,11 @@
 		9A9EBB5118EE105D0043EBA9 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				9A37C57819E9AEDD00472033 /* Assets.xcassets */,
+				9A9EBB9818F4787A0043EBA9 /* WWDC Gradient.jpg */,
+				9A9EBB9618F44D8F0043EBA9 /* WWDC Gradient 2.jpg */,
+				9A9EBB5918EE105D0043EBA9 /* VSTAppDelegate.h */,
+				9A9EBB5A18EE105D0043EBA9 /* VSTAppDelegate.m */,
 				9A9EBB5218EE105D0043EBA9 /* Vegard Solheim Theriault-Info.plist */,
 				9A9EBB5318EE105D0043EBA9 /* InfoPlist.strings */,
 				9A9EBB5618EE105D0043EBA9 /* main.m */,
@@ -150,6 +216,26 @@
 				9A9EBB7218EE105D0043EBA9 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9A9EBBA018F55A540043EBA9 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				9A9EBB5F18EE105D0043EBA9 /* VSTViewController.h */,
+				9A9EBB6018EE105D0043EBA9 /* VSTViewController.m */,
+				9A9EBB8318F166E10043EBA9 /* VSTPictureViewerVC.h */,
+				9A9EBB8418F166E10043EBA9 /* VSTPictureViewerVC.m */,
+			);
+			name = "View Controllers";
+			sourceTree = "<group>";
+		};
+		9AE9E00D18F6F9620027C141 /* Location Management */ = {
+			isa = PBXGroup;
+			children = (
+				9AE9E00A18F6F9570027C141 /* VSTLocationManager.h */,
+				9AE9E00B18F6F9570027C141 /* VSTLocationManager.m */,
+			);
+			name = "Location Management";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -200,6 +286,9 @@
 				LastUpgradeCheck = 0510;
 				ORGANIZATIONNAME = "Vegard Solheim Theriault";
 				TargetAttributes = {
+					9A9EBB4618EE105D0043EBA9 = {
+						DevelopmentTeam = VP7R74RQV5;
+					};
 					9A9EBB6718EE105D0043EBA9 = {
 						TestTargetID = 9A9EBB4618EE105D0043EBA9;
 					};
@@ -229,9 +318,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9A9EBB6318EE105D0043EBA9 /* Images.xcassets in Resources */,
+				9A9EBB9718F44D8F0043EBA9 /* WWDC Gradient 2.jpg in Resources */,
 				9A9EBB5518EE105D0043EBA9 /* InfoPlist.strings in Resources */,
+				9A9EBB9918F4787A0043EBA9 /* WWDC Gradient.jpg in Resources */,
 				9A9EBB5E18EE105D0043EBA9 /* Main.storyboard in Resources */,
+				9A37C57919E9AEDD00472033 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -251,8 +342,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				9A9EBB5B18EE105D0043EBA9 /* VSTAppDelegate.m in Sources */,
+				9A9EBB9C18F49B980043EBA9 /* VSTImageFilter.m in Sources */,
 				9A9EBB6118EE105D0043EBA9 /* VSTViewController.m in Sources */,
 				9A9EBB5718EE105D0043EBA9 /* main.m in Sources */,
+				9AE9E00C18F6F9570027C141 /* VSTLocationManager.m in Sources */,
+				9A9EBB8518F166E10043EBA9 /* VSTPictureViewerVC.m in Sources */,
+				9A36AD6818F5EC9100A309ED /* VSTValueIndicator.m in Sources */,
+				9A9EBB9F18F55A460043EBA9 /* VSTPicture.m in Sources */,
+				9A9EBB8818F1A1CF0043EBA9 /* VSTHorizontalPickerView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -356,7 +453,7 @@
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Vegard Solheim Theriault (7C938P24Q2)";
 				COPY_PHASE_STRIP = YES;
 				ENABLE_NS_ASSERTIONS = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -377,10 +474,15 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Vegard Solheim Theriault/Vegard Solheim Theriault-Prefix.pch";
 				INFOPLIST_FILE = "Vegard Solheim Theriault/Vegard Solheim Theriault-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -390,10 +492,15 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Vegard Solheim Theriault/Vegard Solheim Theriault-Prefix.pch";
 				INFOPLIST_FILE = "Vegard Solheim Theriault/Vegard Solheim Theriault-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -457,6 +564,7 @@
 				9A9EBB7B18EE105D0043EBA9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9A9EBB7C18EE105D0043EBA9 /* Build configuration list for PBXNativeTarget "Vegard Solheim TheriaultTests" */ = {
 			isa = XCConfigurationList;
@@ -465,6 +573,7 @@
 				9A9EBB7E18EE105D0043EBA9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
