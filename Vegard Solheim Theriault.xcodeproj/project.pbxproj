@@ -31,6 +31,7 @@
 		9A9EBB9918F4787A0043EBA9 /* WWDC Gradient.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9A9EBB9818F4787A0043EBA9 /* WWDC Gradient.jpg */; };
 		9A9EBB9C18F49B980043EBA9 /* VSTImageFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A9EBB9B18F49B980043EBA9 /* VSTImageFilter.m */; };
 		9A9EBB9F18F55A460043EBA9 /* VSTPicture.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A9EBB9E18F55A460043EBA9 /* VSTPicture.m */; };
+		9ABEB8A019EDCDEF00EDA375 /* MWLocationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 9ABEB89F19EDCDEF00EDA375 /* MWLocationManager.m */; };
 		9AE9E00918F62C210027C141 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9AE9E00818F62C210027C141 /* CoreLocation.framework */; };
 		9AE9E00C18F6F9570027C141 /* VSTLocationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AE9E00B18F6F9570027C141 /* VSTLocationManager.m */; };
 /* End PBXBuildFile section */
@@ -81,6 +82,8 @@
 		9A9EBB9B18F49B980043EBA9 /* VSTImageFilter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VSTImageFilter.m; sourceTree = "<group>"; };
 		9A9EBB9D18F55A460043EBA9 /* VSTPicture.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VSTPicture.h; sourceTree = "<group>"; };
 		9A9EBB9E18F55A460043EBA9 /* VSTPicture.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VSTPicture.m; sourceTree = "<group>"; };
+		9ABEB89E19EDCDEF00EDA375 /* MWLocationManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MWLocationManager.h; sourceTree = "<group>"; };
+		9ABEB89F19EDCDEF00EDA375 /* MWLocationManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MWLocationManager.m; sourceTree = "<group>"; };
 		9AE9E00818F62C210027C141 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 		9AE9E00A18F6F9570027C141 /* VSTLocationManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VSTLocationManager.h; sourceTree = "<group>"; };
 		9AE9E00B18F6F9570027C141 /* VSTLocationManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VSTLocationManager.m; sourceTree = "<group>"; };
@@ -234,6 +237,8 @@
 			children = (
 				9AE9E00A18F6F9570027C141 /* VSTLocationManager.h */,
 				9AE9E00B18F6F9570027C141 /* VSTLocationManager.m */,
+				9ABEB89E19EDCDEF00EDA375 /* MWLocationManager.h */,
+				9ABEB89F19EDCDEF00EDA375 /* MWLocationManager.m */,
 			);
 			name = "Location Management";
 			sourceTree = "<group>";
@@ -349,6 +354,7 @@
 				9A9EBB8518F166E10043EBA9 /* VSTPictureViewerVC.m in Sources */,
 				9A36AD6818F5EC9100A309ED /* VSTValueIndicator.m in Sources */,
 				9A9EBB9F18F55A460043EBA9 /* VSTPicture.m in Sources */,
+				9ABEB8A019EDCDEF00EDA375 /* MWLocationManager.m in Sources */,
 				9A9EBB8818F1A1CF0043EBA9 /* VSTHorizontalPickerView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

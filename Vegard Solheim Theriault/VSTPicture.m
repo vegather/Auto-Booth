@@ -56,25 +56,26 @@
     return image;
 }
 
-- (void)saveImageToDisk
+- (void)saveImageToDiskWithCompletionHandler:(void (^)(NSError *error))completionHandler
 {
     [self.assetsLibrary writeImageToSavedPhotosAlbum:[self filteredImage].CGImage
                                             metadata:self.metadata
                                      completionBlock:^(NSURL *assetURL, NSError *error) {
-                                         if (!error) {
-                                             [[[UIAlertView alloc]initWithTitle:@"Picture Saved"
-                                                                        message:@"The picture was successfully saved to your Picture Library."
-                                                                       delegate:nil
-                                                              cancelButtonTitle:nil
-                                                              otherButtonTitles:@"OK", nil]show];
-                                         }
-                                         else {
-                                             [[[UIAlertView alloc]initWithTitle:@"Could Not Save Picture"
-                                                                        message:[NSString stringWithFormat:@"Error: %@", [error localizedDescription]]
-                                                                       delegate:nil
-                                                              cancelButtonTitle:nil
-                                                              otherButtonTitles:@"OK", nil]show];
-                                         }
+                                         completionHandler(error);
+//                                         if (!error) {
+//                                             [[[UIAlertView alloc]initWithTitle:@"Picture Saved"
+//                                                                        message:@"The picture was successfully saved to your Picture Library."
+//                                                                       delegate:nil
+//                                                              cancelButtonTitle:nil
+//                                                              otherButtonTitles:@"OK", nil]show];
+//                                         }
+//                                         else {
+//                                             [[[UIAlertView alloc]initWithTitle:@"Could Not Save Picture"
+//                                                                        message:[NSString stringWithFormat:@"Error: %@", [error localizedDescription]]
+//                                                                       delegate:nil
+//                                                              cancelButtonTitle:nil
+//                                                              otherButtonTitles:@"OK", nil]show];
+//                                         }
                                      }];
 }
 

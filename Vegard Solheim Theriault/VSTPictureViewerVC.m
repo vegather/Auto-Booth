@@ -331,7 +331,11 @@
             // Save
             id picture = self.pictures[[self indexOfSelectedImage]];
             if ([picture isKindOfClass:[VSTPicture class]]) {
-                [(VSTPicture *)picture saveImageToDisk];
+                [(VSTPicture *)picture saveImageToDiskWithCompletionHandler:^(NSError *error) {
+                    if (error) {
+                        NSLog(@"Failed to save to disk with error: %@", error);
+                    }
+                }];
             }
         }
         else if ([services[buttonIndex] isEqualToString:SHARING_SERVICE_FACEBOOK]) {

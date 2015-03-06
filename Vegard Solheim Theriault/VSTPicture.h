@@ -19,6 +19,6 @@
 - (instancetype)initWithSampleBuffer:(CMSampleBufferRef)buffer
                     andPhotoLocation:(CLLocation *)location;
 - (UIImage *)filteredImage;
-- (void)saveImageToDisk;
+- (void)saveImageToDiskWithCompletionHandler:(void (^)(NSError *error))completionHandler;
 
 @end

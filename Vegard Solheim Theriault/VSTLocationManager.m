@@ -46,7 +46,7 @@
 
 - (void)locationManager:(CLLocationManager *)manager didUpdateLocations:(NSArray *)locations
 {
-    self.lastKnownLocation = [locations lastObject];
+    self.lastKnownLocation = [locations firstObject];
 }
 
 - (void)locationManager:(CLLocationManager *)manager didFailWithError:(NSError *)error
